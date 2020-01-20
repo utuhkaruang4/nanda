@@ -15,7 +15,7 @@ class Detail extends StatefulWidget {
 
 class _DetailState extends State<Detail> {
   void deleteData() {
-    var url = "https://utuhkaruang.000webhostapp.com/deletePegawai.php";
+    var url = "https://aldycristiand.000webhostapp.com/deletePegawai.php";
     http.post(url, body: {'id': widget.list[widget.index]['id']});
   }
 

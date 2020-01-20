@@ -1490,6 +1490,6 @@ io.flutter.view.VsyncWaiter$1$1 -> io.flutter.view.s:
     io.flutter.view.VsyncWaiter$1 this$1 -> b
     long val$cookie -> a
 io.flutter.embedding.engine.FlutterEngine -> io.flutter.embedding.engine.a:
-android.support.v4.app.LoaderManagerImpl -> android.support.v4.app.LoaderManagerImpl:
 android.arch.lifecycle.LiveData -> android.arch.lifecycle.LiveData:
+android.support.v4.app.LoaderManagerImpl -> android.support.v4.app.LoaderManagerImpl:
 android.arch.lifecycle.ViewModelProvider -> android.arch.lifecycle.d:

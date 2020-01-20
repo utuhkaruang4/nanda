@@ -35,7 +35,7 @@ class _LoginState extends State<Login> {
  }
 
  login() async {
-   final response = await http.post("https://utuhkaruang.000webhostapp.com/login.php",
+   final response = await http.post("https://aldycristiand.000webhostapp.com/login.php",
        body: {"namaPegawai": nama.text, "posisiPegawai": posisi.text});
    final data = jsonDecode(response.body);
    int value = data['value'];

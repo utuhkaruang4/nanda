@@ -20,7 +20,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   // ini method yang kita gunakan untuk mengambil data dari server
    Future<List> getData() async {
-    final response = await http.get("https://utuhkaruang.000webhostapp.com/getPegawai.php");
+    final response = await http.get("https://aldycristiand.000webhostapp.com/getPegawai.php");
     return json.decode(response.body);
    }
 

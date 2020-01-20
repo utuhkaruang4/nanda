@@ -17,7 +17,7 @@ class _EditDataState extends State<EditData> {
   TextEditingController gajiController = new TextEditingController();
 
   void editData() {
-    var url = "https://utuhkaruang.000webhostapp.com/cobaEdit.php";
+    var url = "https://aldycristiand.000webhostapp.com/cobaEdit.php";
     http.post(url, body: {
       "id": widget.list[widget.index]['id'],
       "namaPegawai": namaController.text,
